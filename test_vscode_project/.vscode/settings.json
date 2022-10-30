@@ -1,5 +1,8 @@
 {
+    "code-runner.runInTerminal": true,
     "editor.fontSize": 14,
+    "editor.minimap.autohide": true,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.fontSize": 14,
     "workbench.colorTheme": "Atom One Dark",
     "workbench.iconTheme": "vscode-icons",
