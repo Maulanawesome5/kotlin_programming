@@ -1,0 +1,9 @@
+{
+    "code-runner.runInTerminal": true,
+    "editor.fontSize": 14,
+    "editor.minimap.autohide": true,
+    "python.defaultInterpreterPath": "C:\\Users\\maula\\AppData\\Local\\Programs\\Python\\Python310\\python",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vscode-icons",
+}
