@@ -8,6 +8,7 @@ docker container create
     --env MARIADB_ROOT_HOST=root
     --env MARIADB_ROOT_PASSWORD=root
     --mount "type=volume,source=mobilepro,destination=/data/db,readonly"
+    --mount "type=bind,source=D:/LATIHAN PEMROGRAMAN/Kotlin_Programming/tugas_mobpro/backup,destination=/data/db,readonly"
 mariadb:latest
 
 # Memulai container database
