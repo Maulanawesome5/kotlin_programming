@@ -14,3 +14,27 @@
 
 # isi dari parameter --mount memiliki aturan tersendiri
 
+# Parameter mounts
+# type -> Tipe mount, bind atau volume
+# source -> lokasi file atau folder di sistem Host
+# destination -> Lokasi file atau folder di container
+# readonly -> Jika ada, maka file atau folder hanya bisa dibaca di container, tidak bisa ditulis
+
+# perintah melakukan mount
+docker container create
+    --name namacontainer
+    --mount "type=bind,source=folder,destination=folder,readonly"
+image:tag
+
+# contoh pemakaian
+docker container create
+    --name mongo_database
+    --mount "type=bind,source=C:/Users/maula/mongo-data,destination=/data/db,readonly"
+    --publish 27018:27017
+    --env MONGO_INITDB_ROOT_USERNAME=eko
+    --env MONGO_INITDB_ROOT_PASSWORD=12345
+mongo:latest
+
+# perintah mount ini akan membuat backup di local komputer.
+# seandainya jika container dihapus, ketik perintah di atas, maka
+# isi data akan di restore menjadi container kembali

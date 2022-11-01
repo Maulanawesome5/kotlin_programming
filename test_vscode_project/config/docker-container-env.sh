@@ -12,8 +12,8 @@
 docker container create
     --name contohmongo
     --publish 27017:27017
-    --env MONGO_INITDB_ROOT_USERNAME="eko"
-    --env MONGO_INITDB_ROOT_PASSWORD="12345"
+    --env MONGO_INITDB_ROOT_USERNAME=eko
+    --env MONGO_INITDB_ROOT_PASSWORD=12345
 mongo:latest
 # Note : Environment Variable untuk setiap aplikasi berbeda
 # Jadi silahkan dibaca pada website Docker Hub
