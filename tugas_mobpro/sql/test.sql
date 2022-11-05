@@ -1,5 +1,5 @@
 -- File test query to DBMS
 show databases;
-use my_anime_list;
+use buku_telepon;
 show tables;
-select * from anime;
+select * from data_kerabat;
