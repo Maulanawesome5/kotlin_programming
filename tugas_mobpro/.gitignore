@@ -1,4 +1,4 @@
 # Abaikan file-file yang tidak diperlukan
 # untuk commit ke repository Github
-src/dockerfile
-src/index.php
+src/docker-php-dev/dockerfile
+src/docker-php-dev/index.php
