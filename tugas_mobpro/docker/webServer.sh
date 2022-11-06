@@ -11,6 +11,18 @@ docker container create
     #--mount "type=bind,source=D:/LATIHAN PEMROGRAMAN/Kotlin_Programming/tugas_mobpro/backup,destination=/data/db,readonly"
 nginx:latest
 
+docker run
+    --name my_server
+    --publish 8080:8080
+    -v D:/LATIHAN PEMROGRAMAN/Kotlin_Programming/tugas_mobpro/src:/usr/share/nginx/html 
+nginx:latest
+
+docker run
+    --name my_server
+    --volume D:/LATIHAN PEMROGRAMAN/Kotlin_Programming/tugas_mobpro/src:/usr/share/nginx/html:ro
+    --detach
+nginx:latest
+
 # Memulai container web server
 docker container start my_server
 

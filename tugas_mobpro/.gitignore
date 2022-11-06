@@ -2,3 +2,19 @@
 # untuk commit ke repository Github
 src/docker-php-dev/dockerfile
 src/docker-php-dev/index.php
+
+# Mount bind dan volume docker untuk database berhasil
+# Namun file backup database terlalu besar, sampai melebihi 100mb
+# Maka saya backup database beserta tabel saja
+backup/mysql
+backup/performance_schema
+backup/sys
+backup/aria_log_control
+backup/aria_log.00000001
+backup/ddl_recovery.log
+backup/ib_buffer_pool
+backup/ib_logfile0
+backup/ibdata1
+backup/ibtmp1
+backup/multi-master.info
+backup/mysql_upgrade_info
