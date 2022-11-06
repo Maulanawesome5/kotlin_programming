@@ -1,0 +1,7 @@
+# Github tidak bisa commit file melebihi 100 mb.
+# Karena file hasil backup container Docker berukuran
+# 300 mb, maka saya akan ignore supaya tidak terupload ke
+# repository github milik saya.
+backup/
+backup/backup-ubuntu.tar.gz
+backup/backup.tar.gz
