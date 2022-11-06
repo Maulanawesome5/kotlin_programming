@@ -15,7 +15,7 @@
 # Delete container yang kita gunakan untuk melakukan bakcup.
 docker container create
     --name nginxbackup
-    --mount "type=bind,source=C:/Users/maula/nginx_docker/backup,destination=/backup"
+    --mount "type=bind,source=D:/LATIHAN PEMROGRAMAN/Kotlin_Programming/test_vscode_project/backup,destination=/backup"
     --mount "type=volume,source=mongodata,destination=/data"
 nginx:latest
 
@@ -37,6 +37,6 @@ docker container start mongodata
 docker container run
     --rm
     --name ubuntu
-    --mount "type=bind,source=C:/Users/maula/nginx_docker/backup,destination=/backup"
+    --mount "type=bind,source=D:/LATIHAN PEMROGRAMAN/Kotlin_Programming/test_vscode_project/backup,destination=/backup"
     --mount "type=volume,source=mongodata,destination=/data"
 ubuntu:latest tar cvf /backup/backup.tar.gz /data
