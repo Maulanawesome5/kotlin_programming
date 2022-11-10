@@ -1,26 +1,15 @@
 # Perintah docker untuk membuat web server
 
-docker container create
-    --name my_server
-    --memory 142m
-    --cpus 0.5
-    --publish 8080:8080
-    --env MARIADB_ROOT_HOST=root
-    --env MARIADB_ROOT_PASSWORD=root
-    #--mount "type=volume,source=mobilepro,destination=/data/db,readonly"
-    #--mount "type=bind,source=D:/LATIHAN PEMROGRAMAN/Kotlin_Programming/tugas_mobpro/backup,destination=/data/db,readonly"
-nginx:latest
+# Cara ini berhasil dibuka melalui browser
+# dan file index dapat di edit melalui Visual Studio Code
 
 docker run
-    --name my_server
-    --publish 8080:8080
-    -v D:/LATIHAN PEMROGRAMAN/Kotlin_Programming/tugas_mobpro/src:/usr/share/nginx/html 
-nginx:latest
-
-docker run
-    --name my_server
-    --volume D:/LATIHAN PEMROGRAMAN/Kotlin_Programming/tugas_mobpro/src:/usr/share/nginx/html:ro
+    -it
+    --rm
     --detach
+    --publish 8080:8080
+    --name my_server2
+    --volume "D:\LATIHAN PEMROGRAMAN\Kotlin_Programming\tugas_mobpro\src:/usr/share/nginx/html"
 nginx:latest
 
 # Memulai container web server
