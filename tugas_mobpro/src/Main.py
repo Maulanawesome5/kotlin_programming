@@ -1,7 +1,20 @@
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
+import pymysql as sql
 
 
-matrix_set = np.array([[1,2,3,4,5], [1,2,3,4,5]])
+try:
+    # koneksi ke DBMS melalui docker container
+    # koneksi sukses. pakai container bernama local_database
+    koneksi = sql.Connection(host="localhost", user="root", password="root", database="buku_telepon", port=3307)
+    kursor = koneksi.cursor()
 
+    kursor.execute("SELECT VERSION();")
+
+    data = kursor.fetchone()
+
+    print(f"Versi DBMS yang anda pakai adalah {data}")
+
+    koneksi.commit()
+    koneksi.close()
+
+except:
+    print(f"Ada sesuatu yang salah. Coba lagi")
