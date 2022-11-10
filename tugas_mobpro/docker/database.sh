@@ -29,6 +29,16 @@ docker container create
     --publish 3307:3306
 mariadb:latest
 
+# Terbaru dan sukses berjalan di vscode
+docker run
+    -it
+    --detach
+    --publish 3307:3306
+    --name local_database
+    --volume "D:\LATIHAN PEMROGRAMAN\Kotlin_Programming\tugas_mobpro\backup:/var/lib/mysql"
+    --env MARIADB_ROOT_PASSWORD=12345
+mariadb:latest
+
 # Memulai container database
 docker container start some_mariadb
 
