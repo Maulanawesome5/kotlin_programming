@@ -9,4 +9,11 @@
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "workbench.colorTheme": "Atom One Dark",
     "workbench.iconTheme": "vscode-icons",
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
 }
