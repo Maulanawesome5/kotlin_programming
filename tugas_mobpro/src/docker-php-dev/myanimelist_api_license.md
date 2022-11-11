@@ -6,21 +6,21 @@ This API License and Developer Agreement (this “Agreement”) is a binding con
 
 ## 1. Definitions.
 
-a. “API” means the MAL application programming interface and any API Documentation or other API materials made available by Company via email, on its website or through any MyAnimeList applications.
+1. “API” means the MAL application programming interface and any API Documentation or other API materials made available by Company via email, on its website or through any MyAnimeList applications.
 
-b. “API Documentation” means the API documentation provided to you via email or described on the Company’s website from time to time.
+2. “API Documentation” means the API documentation provided to you via email or described on the Company’s website from time to time.
 
-c. “Client ID” means the security key Company makes available for you to access the API. (d) “Company Marks” means Company’s proprietary trademarks, service marks, trade names, branding, or logos.
+3. “Client ID” means the security key Company makes available for you to access the API. (d) “Company Marks” means Company’s proprietary trademarks, service marks, trade names, branding, or logos.
 
-e. “Company Offering” means Company’s website at myanimelist.net, mobile applications and associated MyAnimeList online manga store and other MyAnimeList applications and online services.
+4. “Company Offering” means Company’s website at myanimelist.net, mobile applications and associated MyAnimeList online manga store and other MyAnimeList applications and online services.
 
-f. "MyAnimeList Content" means MyAnimeList end user information and posts, anime related information, manga related information and any other data and information made available to you through the API or by any other means authorized by the Company and any copies or derivative works thereof.
+5. "MyAnimeList Content" means MyAnimeList end user information and posts, anime related information, manga related information and any other data and information made available to you through the API or by any other means authorized by the Company and any copies or derivative works thereof.
 
-g. “Your Applications” means any applications owned, developed or controlled by you that interact with the API or are designed to interact with the API.
+6. “Your Applications” means any applications owned, developed or controlled by you that interact with the API or are designed to interact with the API.
 
-h. “Your Commercial Applications” means any of Your Applications that are for profit, revenue generating or otherwise commercial in nature, such as applications that are marketed, promoted or sold and include or integrate with financial transaction functionality. Examples of applications within this definition of “Your Commercial Applications” include, but are not limited to, subscription or single-pay use model applications, advertising company applications, applications enabling paid consultation, pay-to-download apps, applications with tiered user experiences based on financial transactions, cryptocurrency model applications, data analysis applications for commercial use, articles published in paid periodicals, Crowdfunding and soliciting donations via quotas (e.g. monthly donations).
+7. “Your Commercial Applications” means any of Your Applications that are for profit, revenue generating or otherwise commercial in nature, such as applications that are marketed, promoted or sold and include or integrate with financial transaction functionality. Examples of applications within this definition of “Your Commercial Applications” include, but are not limited to, subscription or single-pay use model applications, advertising company applications, applications enabling paid consultation, pay-to-download apps, applications with tiered user experiences based on financial transactions, cryptocurrency model applications, data analysis applications for commercial use, articles published in paid periodicals, Crowdfunding and soliciting donations via quotas (e.g. monthly donations).
 
-i. “Your Non-Commercial Applications” means any of Your Applications that are not for profit, revenue generating or otherwise commercial in nature, such as applications that are personal, educational, open source or communal or “for the community.” Examples of applications within this definition of “Your Non-Commercial Applications” include, but are not limited to, free apps, free web services, data analysis available for free for MyAnimeList community use, research applications, scholarly non-paid articles, applications accepting donations without any quotas. Notwithstanding the foregoing, “Your Non-Commercial Applications” may include some pay per click or pay per view advertising or other similar advertising so long as the advertising 
+8. “Your Non-Commercial Applications” means any of Your Applications that are not for profit, revenue generating or otherwise commercial in nature, such as applications that are personal, educational, open source or communal or “for the community.” Examples of applications within this definition of “Your Non-Commercial Applications” include, but are not limited to, free apps, free web services, data analysis available for free for MyAnimeList community use, research applications, scholarly non-paid articles, applications accepting donations without any quotas. Notwithstanding the foregoing, “Your Non-Commercial Applications” may include some pay per click or pay per view advertising or other similar advertising so long as the advertising 
 
     1. does not disrupt the user experience and 
     
@@ -28,8 +28,9 @@ i. “Your Non-Commercial Applications” means any of Your Applications that ar
 
 ## 2. License Grant.
 
-(a) Subject to and conditioned on your compliance with all terms and conditions set forth in this Agreement, we hereby grant you a limited, revocable, non-exclusive, non-transferable, non-sublicensable license during the term of the Agreement to use the API solely for your internal business purposes in developing Your Applications that will communicate and interoperate with aspects of the Company Offering. You acknowledge that there are no implied licenses granted under this Agreement. We reserve all rights that are not expressly granted. You may not use the API for any other purpose without our prior written consent. You must obtain a Client ID from the Company through the application and registration process to use and access the API. You may not share your Client ID with any third party, must keep your Client ID and all log-in information secure, and must use the Client ID as your sole means of accessing the API. Your Client ID may be revoked at any time by us.
-(b) You hereby grant Company and the Company accepts a revocable, non-exclusive, non- transferable, non-sublicensable, royalty free license to access, index, and cache by any means, including web spiders and/or crawlers, any webpage on which you display MyAnimeList Content.
+a. Subject to and conditioned on your compliance with all terms and conditions set forth in this Agreement, we hereby grant you a limited, revocable, non-exclusive, non-transferable, non-sublicensable license during the term of the Agreement to use the API solely for your internal business purposes in developing Your Applications that will communicate and interoperate with aspects of the Company Offering. You acknowledge that there are no implied licenses granted under this Agreement. We reserve all rights that are not expressly granted. You may not use the API for any other purpose without our prior written consent. You must obtain a Client ID from the Company through the application and registration process to use and access the API. You may not share your Client ID with any third party, must keep your Client ID and all log-in information secure, and must use the Client ID as your sole means of accessing the API. Your Client ID may be revoked at any time by us.
+
+b. You hereby grant Company and the Company accepts a revocable, non-exclusive, non- transferable, non-sublicensable, royalty free license to access, index, and cache by any means, including web spiders and/or crawlers, any webpage on which you display MyAnimeList Content.
 
 ## 3. Use Restrictions; Security.
 
