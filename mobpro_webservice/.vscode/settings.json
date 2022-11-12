@@ -1,0 +1,7 @@
+{
+    "editor.minimap.autohide": true,
+    "php.executablePath": "D:\\LATIHAN PEMROGRAMAN\\xampp\\php\\php.exe",
+    "php.suggest.basic": true,
+    "php.validate.enable": true,
+    "workbench.iconTheme": "vscode-icons",
+}
